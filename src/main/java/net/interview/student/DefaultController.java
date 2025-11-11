@@ -7,6 +7,7 @@ public class DefaultController {
 
     @GetMapping("/")
     public String helloWorldEndpoint() {
+        System.out.println("enter helloWorldEndpoint");
         return "Hello from Students GET / endpoint !!";
     }
 }
